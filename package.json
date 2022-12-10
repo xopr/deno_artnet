@@ -1,7 +1,7 @@
 {
   "version": "1.4.0",
-  "name": "artnet",
-  "description": "Module to send commands to an Art-Net node",
+  "name": "deno_artnet",
+  "description": "Deno module to send commands to an Art-Net node",
   "homepage": "http://github.com/hobbyquaker/artnet",
   "author": "hobbyquaker <hq@ccu.io> https://github.com/hobbyquaker",
   "contributors": [
@@ -11,7 +11,8 @@
     "maxjoehnk https://github.com/maxjoehnk",
     "hibas123 https://github.com/hibas123",
     "margau https://github.com/margau",
-    "Justin J. Novack https://github.com/jnovack"
+    "Justin J. Novack https://github.com/jnovack",
+    "xopr https://github.com/xopr"
   ],
   "keywords": [
     "Art-Net",
@@ -20,16 +21,17 @@
     "DMX512",
     "stage lighting",
     "LED",
-    "rgb"
+    "rgb",
+    "Deno"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hobbyquaker/artnet.git"
+    "url": "git@github.com:xopr/deno_artnet.git"
   },
   "main": "./lib/artnet.js",
   "dependencies": {},
   "bugs": {
-    "url": "https://github.com/hobbyquaker/artnet/issues"
+    "url": "https://github.com/xopr/deno_artnet/issues"
   },
   "license": "MIT",
   "devDependencies": {
